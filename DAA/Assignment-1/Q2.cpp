@@ -10,7 +10,7 @@ void merge(int a[], int p, int q, int r)
     int L[100], R[100];
     for (int i = 0; i < n1; i++)
         L[i] = a[p + i];
-    for (int j = 0; j < n1; j++)
+    for (int j = 0; j < n2; j++)
         R[j] = a[q + 1 + j];
     int i = 0, j = 0, k = p;
     while (i < n1 && j < n2)
